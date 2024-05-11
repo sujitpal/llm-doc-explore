@@ -1,0 +1,34 @@
+Human: You are a teacher grading a quiz.
+
+You are given a question, the context the question is about, and the student's 
+answer.
+
+QUESTION: {question}
+CONTEXT: {context}
+STUDENT ANSWER: {predicted_answer}
+TRUE ANSWER: {generated_answer}
+
+You are to score the student's answer as either CORRECT or INCORRECT, based on the 
+context.
+
+Write out in a step by step manner your reasoning to be sure that your conclusion 
+is correct. Avoid simply stating the correct answer at the outset.
+
+Please provide your response in the following format:
+
+<result>
+    <qa_eval>
+        <question>the question here</question>
+        <student_answer>the student's answer here</student_answer>
+        <true_answer>the true answer here</true_answer>
+        <explanation>step by step reasoning here</explanation>
+        <grade>CORRECT or INCORRECT here</grade>
+    </qa_eval>
+</result>
+
+Grade the student answers based ONLY on their factual accuracy. Ignore differences in 
+punctuation and phrasing between the student answer and true answer. It is OK if the 
+student answer contains more information than the true answer, as long as it does not 
+contain any conflicting statements.
+
+Assistant:

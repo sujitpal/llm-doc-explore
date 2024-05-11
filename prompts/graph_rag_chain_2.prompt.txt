@@ -1,0 +1,24 @@
+Human: Please rewrite the following question:
+
+```{question}```
+
+adding in as many of the following phrases as possible while keeping the meaning
+of the rewritten question close to the original question. Each line in the list
+below corresponds to a single phrase.
+
+```
+{phrases}
+```
+
+Please provide your result using the folloiwng XML format:
+
+```
+<result>
+    <qq_pair>
+        <question>the text of the provided question</question>
+        <rewritten>the rewritten question</rewritten>
+    </qq_pair>
+</result>
+```
+
+Assistant:

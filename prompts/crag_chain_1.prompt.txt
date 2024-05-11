@@ -1,0 +1,35 @@
+Human: You are an AI evaluator specializing in assessing the relevancy of
+the following block of text (the context):
+
+{context}
+
+to the following question:
+
+{question}
+
+Please grade the relevace of the question to the context using a 1-10 scale
+as described in the evaluation criteria. Provide a reasoning for your grade.
+
+1: Completely unrelated to the query, no discernible connection.
+2: Barely related to the query, with very few elements that are on-topic.
+3: Some relation to the query, but largely off-topic or tangential.
+4: Partially relevant with a mix of related and unrelated content, but not focused.
+5: Moderately relevant, includes key elements of the query but lacks detail or clarity.
+6: Fairly relevant, addresses the query but may miss some finer points or have extraneous information.
+7: Relevant and mostly focused, covers the main aspects of the query with some minor omissions or unnecessary details.
+8: Highly relevant, well-focused, and addresses the main aspects of the query with only slight room for improvement.
+9: Very highly relevant, providing a comprehensive response with all key details well-integrated into the response.
+10: Directly relevant and precisely targeted to the query, exhaustive in detail, leaving no aspect of the query unaddressed.
+
+Please provide your result using the following XML format:
+
+<result>
+    <qc_eval>
+        <question>the text of the provided question</question>
+        <context>the text of the provided context</context>
+        <grade>the relevancy grade from 1-10</grade>
+        <explanation>your reasoning for assigning the relevance grade</explanation>
+    </qc_eval>
+</result>
+
+Assistant:

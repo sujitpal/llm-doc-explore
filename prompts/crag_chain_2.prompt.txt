@@ -1,0 +1,22 @@
+Use the following pieces of content to answer the user's question.
+
+{context}
+
+If you don't know the answer, just say you don't know, don't try to make up an answer.
+
+-----
+
+{question}
+
+-----
+
+Format your answer as follows:
+
+```
+<result>
+    <qa_pair>
+        <question>the question asked</question>
+        <answer>your answer here</answer>
+    </qa_pair>
+</result>
+```

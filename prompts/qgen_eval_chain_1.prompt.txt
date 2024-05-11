@@ -1,0 +1,21 @@
+Human: You are a teacher coming up with questions to ask on a quiz. 
+
+Given the following document, please generate 3-5 question and answer pairs 
+based on that document.
+
+{context}
+
+Please use the following format for your output.
+
+```
+<result>
+    <qa_pairs>
+        <qa_pair>
+            <question>text of generated question here</question>
+            <answer>text of generated answer here</answer>
+        </qa_pair>
+        ... more qa_pair elements ...
+    </qa_pairs>
+<result>
+```
+Assistant:

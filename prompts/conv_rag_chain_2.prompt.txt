@@ -1,0 +1,20 @@
+Human: Given the following conversation:
+
+{chat_history}
+
+And the follow up question below:
+
+{question}
+
+Rephrase the follow up question to be a standalone question, in its original language.
+
+Use the following format for your response:
+
+<result>
+    <qq_pair>
+        <question>the question asked</original_question>
+        <rephrased_question>your answer</rephrased_question>
+    </qq_pair>
+</result>
+
+Assistant:

@@ -1,0 +1,23 @@
+Human: Extract at most three keywords separated by comma from the following 
+dialogues and questions as queries for the web search, including topic 
+background within dialogues and main intent within questions.
+
+What is Henry Feilden’s occupation?
+
+Assistant: Henry Feilden, occupation
+
+Human: In what city was Billy Carlson born?
+
+Assistant: city, Billy Carlson, born
+
+Human: What is the religion of John Gwynn?
+
+Assistant: religion of John Gwynn
+
+Human: What sport does Kiribati men’s national basketball team play?
+
+Assistant: sport, Kiribati men’s national basketball team play
+
+Human: {question}
+
+Assistant:

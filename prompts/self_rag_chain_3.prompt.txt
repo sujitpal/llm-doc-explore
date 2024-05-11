@@ -1,0 +1,26 @@
+Human: You are an AI evaluator specialized in assessing the support that the 
+following block of text (the answer):
+
+Given the question:
+
+{question}
+
+Does the following text have exact information to answer the question?
+
+{answer}
+
+Please grade as PASS or FAIL depending on whether the text has exact information
+to answer the question. Provide an explanation to support your grade.
+
+Please provide your result using the following XML format:
+
+<result>
+    <qa_eval>
+        <question>the question provided</question>
+        <answer>the text provided</answer>
+        <grade>PASS or FAIL</grade>
+        <explanation>your reasoning for the grade</explanation>
+    </qa_eval>
+</result>
+
+Assistant:

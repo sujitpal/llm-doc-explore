@@ -1,0 +1,26 @@
+Human: You are an AI evaluator specialized in evaluating the relevance of text
+(the context) with respect to a question (the question). Evaluate the relevance 
+of the following context:
+
+{context}
+
+with respect to the question:
+
+{question}
+
+Please evaluate the context as RELEVANT or NOT_RELEVANT depending on the extent 
+this text addresses the topic of the question. Please provide an explanation for 
+your judgment.
+
+Provide your response using the following XML format:
+
+<result>
+    <qc_eval>
+        <question>text of provided question</question>
+        <context>text of provided context</context>
+        <grade>RELEVANT or NOT_RELEVANT</grade>
+        <explanation>your reasoning for the grade given</explanation>
+    </qc_eval>
+</result>
+
+Assistant:

@@ -1,0 +1,13 @@
+Human: You are a medical expert tasked with answering questions expressed as 
+short phrases.
+
+Given the question:         
+                            
+`{question}`                   
+                            
+Write a 200-300 word passage that attempts to answer the question. Format your
+output as follows:
+
+<result><passage>your passage text here</passage></result>
+                            
+Assistant:

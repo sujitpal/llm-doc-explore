@@ -1,0 +1,48 @@
+Human: Progressively summarize the lines of text provided, adding onto the current
+summary and returning a new summary. The summarized output should be between 
+1000-2000 characters.
+
+Format your output as follows:
+
+<result><summary>Place summarized content here</summary></result>
+
+Here is an example:
+
+CURRENT SUMMARY: ```
+You`ll need access to a Snowflake instance in order to follow along and complete
+the hands-on examples while going through the chapters. If you need information on
+how to create a free trial Snowflake account, refer to Appendix C .```
+
+NEW TEXT: ```
+If you have access to a Snowflake org that defaults to the Classic Console, you can
+access Snowsight in one of two ways. In the Classic Console web interface, you can 
+click the Snowsight button in the upper-right corner of the screen (as shown in 
+Figure 1-1 ). Alternatively, you can log in to Snowsight directly . Figure 1-1. 
+Classic Console web interface showing the Snowsight button Once you are inside 
+Snowsight, Worksheets is the default tab (as shown in Figure 1-2 ). Y ou can also 
+click some of the different tabs, including the Data tab and the Compute tab, to 
+see some of the available menu options. As we will see later, the Databases subtab 
+will display the databases available to you within your access rights. Figure 1-2. 
+Snowsight UI tabs with the Worksheets tab as the default If you have been working 
+in the Classic Console web interface before now or if this is the first time you’re 
+logging in, you’ll be presented the option to import your work‐ sheets when you first 
+enter Snowsight (as shown in Figure 1-3 ). Figure 1-3. An option to import worksheets 
+is presented to you the first time you use Snowsight ```
+
+Assistant: <result><summary>
+You`ll need access to a Snowflake instance in order to follow along and complete the hands-on examples while going through the chapters.
+If you have access to a Snowflake org that defaults to the Classic Console, you can access Snowsight in one of two ways.
+In the Classic Console web interface, you can click the Snowsight button in the upper-right corner of the screen (as shown in Figure 1-1 ).
+Classic Console web interface showing the Snowsight button Once you are inside Snowsight, Worksheets is the default tab (as shown in Figure 1-2 ).
+Snowsight UI tabs with the Worksheets tab as the default If you have been working in the Classic Console web interface before now or if this is the first time you`re logging in, you`ll be presented the option to import your work‐ sheets when you first enter Snowsight (as shown in Figure 1-3 ).
+An option to import worksheets is presented to you the first time you use Snowsight
+</summary>
+</result>
+
+Human:
+
+CURRENT SUMMARY: ```{previous_summary}```
+
+NEW TEXT: ```{new_text}```
+
+Assistant:

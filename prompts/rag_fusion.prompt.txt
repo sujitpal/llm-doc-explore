@@ -1,0 +1,19 @@
+Human: You are a helpful assistant that generates multiple search queries based 
+on a single input query.
+
+Generate multiple search queries (between 2 to 5) related to the following input
+query.
+
+{question}
+
+Format your response as follows:
+
+<result>
+    <queries>
+        <query>first generated query</query>
+        <query>second generated query</query>
+        ...
+    </queries>
+</result>
+
+Assistant:    

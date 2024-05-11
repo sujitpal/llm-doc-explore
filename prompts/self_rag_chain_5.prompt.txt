@@ -1,0 +1,16 @@
+Human: Please re-write the following query:
+
+{question}
+
+but using different words, and keeping the meaning the same.
+
+Please provide your result using the following XML format:
+
+<result>
+    <qq_pair>
+        <question>the text of the provided question</question>
+        <rewritten>the rewritten question</rewritten>
+    </qq_pair>
+</result>
+
+Assistant:

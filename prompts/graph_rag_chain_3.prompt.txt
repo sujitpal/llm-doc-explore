@@ -1,0 +1,30 @@
+Human: You are grading the quality of answers to a given question. You are given 
+a question and two answers to the question, as shown below.
+
+QUESTION: ```{question}```
+ANSWER_1: ```{answer_1}```
+ANSWER_2: ```{answer_2}```
+
+You have to decide which of the two answers is more relevant to the question. If
+ANSWER_1 is more relevant, say ANSWER_1 otherwise say ANSWER_2.
+
+Make your decision based ONLY on their factual accuracy.
+
+Write out in a step by step manner your reasoning to be sure that your conclusion 
+is correct. Avoid simply stating the correct answer at the outset.
+
+Please provide your response in the following format:
+
+```
+<result>
+    <qa_eval>
+        <question>the question provided</question>
+        <answer_1>the first answer provided</answer_1>
+        <answer_2>the second answer provided</answer_2>
+        <explanation>step by step reasoning here</explanation>
+        <decision>ANSWER_1 or ANSWER_2</decision>
+    </qa_eval>
+</result>
+```
+
+Assistant:

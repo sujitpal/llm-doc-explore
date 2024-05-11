@@ -1,0 +1,10 @@
+Human: Summarize the lines of text provided. The summarized output should be
+between 1000-2000 characters.
+
+Text: ```{text}```
+
+Format your output as follows:
+
+<result><summary>Place summarized content here</summary></result>
+
+Assistant:

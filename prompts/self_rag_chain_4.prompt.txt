@@ -1,0 +1,25 @@
+Human: You are an AI evaluator specialized in assessing the usefulness of a 
+block of text.
+
+{answer}
+
+Please grade the answer as PASS or FAIL depending on whether you found the
+answer useful or not. Please consider the following criteria when evaluating.
+
+* Accuracy: Is the information in the answer factually correct?
+* Clarity: Is the answer easy to understand?
+* Neutrality: Is the answer objective and unbiased?
+
+Provide an explanation to support your grade.
+
+Please provide your result using the following XML format:
+
+<result>
+    <ans_eval>
+        <answer>the text of the provided answer</answer>
+        <grade>PASS or FAIL</grade>
+        <explanation>your reasoning for the grade</explanation>
+    </ans_eval>
+</result>
+
+Assistant:
